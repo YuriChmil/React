@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    outline: none;
+  }
+  
+  .todo{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 750px;
+    height: 530px;
+font-size: 14px;
+    box-shadow: 1px 2px 20px #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  .todo__sidebar{
+    width: 250px;
+    height: 490px;
+    background-color: #f3f3f3;
+    padding: 20px 20px;
+  }
+  .todo__sidebar_left{
+ 
+    background-color: #b64848;
+  
+  }
+
+  .i{
+    margin-right: 10px;  
+}
+  .active{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 12px;
+    margin-bottom: 5px;   
+    background: #ffffff;
+    box-shadow:  0px 3px 10px rgba(0, 0,0,0.04);
+    border-radius:  4px;
+  }
+  .i{
+    display: inline-flex;
+    margin-right: 10px;
+   
+  }
+  
+  .badge {
+   
+      width: 10px;
+      height: 10px;
+      border-radius: 30px;
+       margin-right: 10px;
+      &--green {
+        
+      background-color: #38b442;
+      } &--red {
+        background-color: #091309;
+        }
+
+ 
+  }
+  .todo_list{
+    margin-top: 60px;
+  }
